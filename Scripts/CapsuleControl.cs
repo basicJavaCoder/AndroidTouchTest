@@ -53,7 +53,7 @@ public class CapsuleControl : MonoBehaviour, IInteractable
 
     public void objectSelected()
     {
-        objectRenderer.material.SetColor("_Color", Color.yellow);
+       
     }
 
     public void rotateObject(Vector3 v)
@@ -70,9 +70,9 @@ public class CapsuleControl : MonoBehaviour, IInteractable
         transform.localScale = newScale;
     }
 
-    public void youveBeenTouched()
+    public void tapped()
     {
-
+        objectRenderer.material.SetColor("_Color", Color.yellow);
     }
 
     // Start is called before the first frame update

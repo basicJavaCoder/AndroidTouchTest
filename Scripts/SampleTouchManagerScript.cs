@@ -27,7 +27,7 @@ public class SampleTouchManagerScript : MonoBehaviour, ITouchController
         {
             IInteractable the_object = hit_info.transform.GetComponent<IInteractable>();
 
-            the_object.objectSelected();
+            the_object.tapped();
             selected_object = the_object;
 
 

@@ -56,7 +56,7 @@ public class CubeControl : MonoBehaviour, IInteractable
         transform.localScale = newScale;
     }
 
-    public void youveBeenTouched()
+    public void tapped()
     {
 
     }

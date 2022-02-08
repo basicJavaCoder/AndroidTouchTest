@@ -6,7 +6,7 @@ interface IInteractable
 {
     GameObject gameObject { get; }
 
-    void youveBeenTouched();
+    void tapped();
 
     void moveTo(Vector3 destination);
 
